@@ -11,6 +11,8 @@
 
 [starry-next#28](https://github.com/oscomp/starry-next/pull/28)、[arceos#23](https://github.com/oscomp/arceos/pull/23)
 
+下周计划将信号整合到其他 syscall 中（包括 sleep、wait 等，之前没有信号是采用的临时实现），如果能整合完成再和王铮合作完成进程和信号的整合。
+
 ## 记录
 
 调查之后意识到 futex 优先级应该在实现线程后，因为 futex 本质上是基于共享的内存做 wait queues，如果没有实现线程或者 shared memory 的话 futex 是无法测试的。

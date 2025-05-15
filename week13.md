@@ -7,6 +7,7 @@
 - 文件系统功能与 syscall 实现：软链接、tmpfs、chmod、chown、pread、pwrite、preadv、pwritev、utimensat、ftruncate、fsync、fdatasync、mkdir、rmdir、faccess、getdents64 以及他们的各种变种
 - 修复一些重入锁
 - 修复 IRQ 死锁问题
+- 写了个本地的测试脚本
 
 - iozone：通过上面的 syscall 实现和修复通过了 sanity check，后续部分需要 shmem 实现才能得分
 

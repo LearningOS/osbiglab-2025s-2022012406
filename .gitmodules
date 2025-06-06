@@ -1,0 +1,6 @@
+[submodule "starry-next"]
+	path = starry-next
+	url = https://github.com/Mivik/starry-next.git
+[submodule "arceos"]
+	path = arceos
+	url = https://github.com/Mivik/arceos.git
